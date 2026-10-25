@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ARCHIVO="data/raw/ventas.csv"
+
+echo "Pedidos: $(( $(wc -l < "$ARCHIVO") - 1 ))"
+echo "Total ventas Bogota: $(awk -F, '$4=="Bogota" {s+=$7} END {print s}' "$ARCHIVO")"

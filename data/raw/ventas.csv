@@ -1,0 +1,9 @@
+pedido_id,fecha,cliente,ciudad,categoria,cantidad,ventas
+1001,2026-01-05,Ana,Bogotá,Tecnología,2,1200
+1002,2026-01-07,Luis,Medellín,Muebles,1,450
+1003,2026-01-09,Ana,Bogotá,Papelería,10,80
+1004,2026-02-01,Marta,Cali,Tecnología,1,900
+1005,2026-02-03,Luis,Medellín,Tecnología,3,1750
+1006,2026-02-10,Pedro,Bogotá,Muebles,2,700
+1007,2026-02-15,Marta,Cali,Papelería,5,40
+1008,2026-03-02,Ana,Bogotá,Tecnología,1,600
